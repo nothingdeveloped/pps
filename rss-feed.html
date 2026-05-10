@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy - Feeds</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #555;
+    --accent: #c62828;
+    --border: #e5e5e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --text: #e8e8e8;
+      --muted: #b0b0b0;
+      --accent: #ef5350;
+      --border: #2a2a2a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+    color: var(--text);
+    background: var(--bg);
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 32px 20px 64px;
+  }
+  h1 {
+    color: var(--accent);
+    font-size: 2rem;
+    margin-bottom: 4px;
+  }
+  h2 {
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 6px;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+  ul { padding-left: 1.25rem; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  code {
+    background: var(--border);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta">App: <strong>Feeds</strong> &middot; Last updated: May 10, 2026</p>
+
+<p>
+  This Privacy Policy describes how the <strong>Feeds</strong> mobile application (the "App") handles
+  information when you use it. By using the App, you agree to the practices described in this policy.
+</p>
+
+<h2>1. Information We Do Not Collect</h2>
+<p>
+  Feeds is designed to respect your privacy. We do <strong>not</strong> collect, store, or transmit any
+  personally identifiable information (PII) about you. Specifically, the App does not require:
+</p>
+<ul>
+  <li>An account, sign-in, or registration of any kind</li>
+  <li>Your name, email address, phone number, or contacts</li>
+  <li>Your precise or approximate location</li>
+  <li>Photos, files, or media from your device</li>
+</ul>
+
+<h2>2. Information Stored Locally on Your Device</h2>
+<p>
+  All of your reading data stays on your device. The App stores the following locally using your device's
+  storage and a local SQLite database:
+</p>
+<ul>
+  <li>RSS / Atom feed URLs you have subscribed to</li>
+  <li>Cached articles and feed metadata for offline reading</li>
+  <li>Your read / unread / bookmarked status for articles</li>
+  <li>Followed feed bundles and category preferences</li>
+  <li>App settings (theme, sort order, refresh intervals, etc.)</li>
+</ul>
+<p>
+  This data is never sent to us. Uninstalling the App removes all locally stored data.
+</p>
+
+<h2>3. Network Requests</h2>
+<p>
+  To fetch news content, the App makes direct network requests to:
+</p>
+<ul>
+  <li>The RSS / Atom feed URLs you choose to subscribe to (operated by third parties)</li>
+  <li>Article and image URLs referenced inside those feeds</li>
+</ul>
+<p>
+  These requests are made directly from your device to the publisher's servers. Those publishers may log
+  standard request information (such as your IP address and User-Agent) under their own privacy policies.
+  We do not control and are not responsible for the privacy practices of those third-party sources.
+</p>
+
+<h2>4. Firebase (Cloud Firestore)</h2>
+<p>
+  The App uses <strong>Google Firebase Cloud Firestore</strong> in read-only mode to deliver a curated
+  list of predefined feed bundles (e.g. "Technology", "Sports") that you can optionally browse and follow.
+  When you open the bundles screen, the App downloads this public catalog from Firestore.
+</p>
+<p>
+  Firebase may automatically collect limited technical information (such as IP address and basic device
+  identifiers) as part of standard service operation, governed by
+  <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
+  We do not use Firebase Authentication, Analytics, Crashlytics, or Cloud Messaging in this App.
+</p>
+
+<h2>5. Permissions</h2>
+<p>The App requests only the minimum permissions required for its functionality:</p>
+<ul>
+  <li><strong>Internet access</strong> — to download RSS feeds, articles, and images.</li>
+  <li><strong>Background execution / scheduled jobs</strong> — to periodically refresh your subscribed
+      feeds in the background using Android's WorkManager.</li>
+  <li><strong>Notifications</strong> (optional, Android 13+) — to alert you about new articles, only if
+      you grant this permission.</li>
+</ul>
+
+<h2>6. Advertising and Tracking</h2>
+<p>
+  The App does <strong>not</strong> show ads, does <strong>not</strong> use advertising identifiers,
+  and does <strong>not</strong> include any third-party analytics or tracking SDKs.
+</p>
+
+<h2>7. Children's Privacy</h2>
+<p>
+  The App does not knowingly collect any information from children under the age of 13. Since the App
+  does not collect personal data at all, it is generally suitable for all ages, but parental discretion
+  is advised because content from third-party RSS feeds is not curated or filtered by us.
+</p>
+
+<h2>8. Data Security</h2>
+<p>
+  Because all your subscriptions and reading data are stored only on your device, the security of that
+  data depends on your device's own security (lock screen, OS updates, etc.). Network requests use HTTPS
+  whenever the underlying feed publisher supports it.
+</p>
+
+<h2>9. Your Rights and Choices</h2>
+<ul>
+  <li>You can remove any subscribed feed at any time from within the App.</li>
+  <li>You can clear cached articles via the App's settings.</li>
+  <li>You can revoke notification permission from your device's system settings.</li>
+  <li>Uninstalling the App permanently deletes all locally stored data.</li>
+</ul>
+
+<h2>10. Changes to This Policy</h2>
+<p>
+  We may update this Privacy Policy from time to time. Updates will be reflected on this page with a new
+  "Last updated" date. Material changes may also be announced inside the App.
+</p>
+
+<h2>11. Contact</h2>
+<p>
+  If you have any questions about this Privacy Policy, please contact:
+  <br>
+  <a href="mailto:nothingdeveloped@gmail.com">nothingdeveloped@gmail.com</a>
+</p>
+
+<footer>
+  &copy; 2026 Feeds. This page is hosted on GitHub Pages and contains no tracking.
+</footer>
+
+</body>
+</html>
