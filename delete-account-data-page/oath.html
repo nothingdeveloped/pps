@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your Oath account and data</title>
+<meta name="description" content="How to delete your Oath account and data. Oath is an accountability app by Silicon.">
+<style>
+  :root{
+    --ground:#0F0E0C; --surface:#1A1916; --line:#2E2C27; --bone:#EDE7DC; --ash:#A39D91; --ember:#FF5A1F;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --ground:#FAF9F5; --surface:#FFFFFF; --line:#E4DFD3; --bone:#141413; --ash:#5F5A50; --ember:#D63F00; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--ground);color:var(--bone);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:720px;margin:0 auto;padding:40px 20px 72px}
+  .eyebrow{font:500 12px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.18em;text-transform:uppercase;color:var(--ember)}
+  h1{margin:14px 0 8px;font-size:clamp(30px,6vw,44px);line-height:1.05;letter-spacing:-.01em}
+  h2{margin:40px 0 10px;font-size:20px;line-height:1.25}
+  p{margin:0 0 14px;color:var(--ash)}
+  p strong,li strong{color:var(--bone)}
+  .lead{font-size:18px}
+  .card{background:var(--surface);border:1px solid var(--line);padding:18px 20px;margin:14px 0}
+  ol,ul{margin:0 0 14px;padding-left:22px;color:var(--ash)}
+  li{margin:6px 0}
+  a{color:var(--ember)}
+  table{width:100%;border-collapse:collapse;margin:8px 0 14px;font-size:15px}
+  th,td{text-align:left;vertical-align:top;padding:10px 12px;border-top:1px solid var(--line)}
+  th{color:var(--bone);font-weight:600;width:34%}
+  td{color:var(--ash)}
+  .meta{margin-top:40px;font-size:13px}
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">Oath · Silicon</div>
+  <h1>Delete your Oath account and data</h1>
+  <p class="lead">Oath is an accountability app made by <strong>Silicon</strong>. You can delete everything Oath holds about you, either in the app or by asking us by email.</p>
+
+  <h2>What Oath holds</h2>
+  <table>
+    <tr><th>On your phone</th><td>Your name, vows, streak, history and proof photos. Proof photos stay on the phone and are never uploaded.</td></tr>
+    <tr><th>In your Google Drive</th><td>Only if you turn on sync: one hidden file in Drive's app data folder. Only Oath can read it. It is your file, in your Drive, not on our servers.</td></tr>
+    <tr><th>Your Google sign-in</th><td>Only if you sign in with Google: your email address and Google account id. They link your Plus purchase to you so it follows you to a new phone.</td></tr>
+    <tr><th>Purchases</th><td>Payments are handled by Google Play. Our subscription service, Adapty, records whether you have Plus.</td></tr>
+    <tr><th>Analytics</th><td>App usage events and crash reports tied to an anonymous install id, not to your name or email.</td></tr>
+  </table>
+
+  <h2>Option 1: delete it yourself in the app</h2>
+  <div class="card">
+    <ol>
+      <li><strong>Erase your vows and history.</strong> Open <strong>Settings</strong>, tap <strong>Delete data</strong>, then confirm. This erases your vows, streak and history from the phone. If Drive sync is on, it also overwrites the synced file.</li>
+      <li><strong>Remove the Drive file.</strong> Open <strong>Settings → Plan &amp; sync → Manage sync</strong> and tap <strong>Delete cloud data</strong>. Then tap <strong>Revoke Drive access</strong> to remove Oath's permission from your Google account.</li>
+      <li><strong>Sign out.</strong> Open <strong>Settings → Plan &amp; sync</strong> and tap <strong>Sign out</strong> under Google account.</li>
+      <li><strong>Uninstall Oath</strong> to remove everything left on the phone.</li>
+    </ol>
+    <p>You can also remove Oath's access from your Google account at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+  </div>
+
+  <h2>Option 2: ask us to delete your data</h2>
+  <div class="card">
+    <p>Email <a href="mailto:developers.silicon@gmail.com?subject=Delete%20my%20Oath%20data"><strong>developers.silicon@gmail.com</strong></a> with the subject <strong>Delete my Oath data</strong>. Send it from the Google account email you signed in with, so we can find your record.</p>
+    <p>We will delete the records linked to you, including your Google email and account id and your subscription profile, and confirm by email. We aim to do this within <strong>30 days</strong>.</p>
+  </div>
+
+  <h2>What is deleted and what is kept</h2>
+  <ul>
+    <li><strong>Deleted:</strong> your Google email and account id, the link to your Plus profile, and anything else we hold that can be tied to you.</li>
+    <li><strong>Your own copies:</strong> data on your phone and in your Google Drive is under your control. We cannot reach it. Use Option 1 to remove it.</li>
+    <li><strong>Kept:</strong> payment and tax records that Google Play or the law require to be kept. Google Play holds these, not Oath.</li>
+    <li><strong>Anonymous analytics</strong> cannot be linked back to a person. Uninstalling the app stops all collection.</li>
+  </ul>
+
+  <p class="meta">Oath, package <code>com.silicon.oath</code>. Developer: Silicon. Contact: <a href="mailto:developers.silicon@gmail.com">developers.silicon@gmail.com</a>. Last updated 26 September 2026.</p>
+</main>
+</body>
+</html>
