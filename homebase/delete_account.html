@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="How to delete your Homebase account or family, and what happens to your data.">
+<title>Delete your Homebase data</title>
+<style>
+  :root {
+    --bg: #faf8f5;
+    --fg: #1f1d1a;
+    --muted: #6b655c;
+    --line: #e4dfd6;
+    --accent: #2f6b4f;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161513;
+      --fg: #f1eee8;
+      --muted: #a39d92;
+      --line: #36332e;
+      --accent: #7fbf9c;
+      --card: #1f1d1a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #161513;
+    --fg: #f1eee8;
+    --muted: #a39d92;
+    --line: #36332e;
+    --accent: #7fbf9c;
+    --card: #1f1d1a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 32px 16px 64px;
+  }
+  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 8px; }
+  h2 { font-size: 19px; margin: 36px 0 8px; }
+  p, li { margin: 8px 0; }
+  ol, ul { padding-left: 22px; }
+  .lead { color: var(--muted); margin-bottom: 24px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 16px 0;
+  }
+  .card h3 { font-size: 16px; margin: 0 0 6px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+  th { font-weight: 600; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Delete your Homebase data</h1>
+  <p class="lead">You can delete your account or your whole family from inside the app. You can also ask us by email. This page explains each option and what happens to your data.</p>
+
+  <h2>Option 1: delete from the app</h2>
+  <p>Open <strong>Family</strong> in the app, then choose one of these.</p>
+
+  <div class="card">
+    <h3>Delete my account</h3>
+    <ol>
+      <li>Go to <strong>Family</strong> and tap <strong>Delete my account</strong>.</li>
+      <li>Type <strong>DELETE</strong> to confirm.</li>
+    </ol>
+    <p class="muted">If you created the family and other people are still in it, you must delete the family first. Other members keep their own accounts.</p>
+  </div>
+
+  <div class="card">
+    <h3>Delete the family</h3>
+    <ol>
+      <li>Go to <strong>Family</strong> and tap <strong>Delete family</strong>.</li>
+      <li>Type the family's name to confirm.</li>
+    </ol>
+    <p class="muted">Only an admin can delete the family. It removes the family's data for everyone in it.</p>
+  </div>
+
+  <h2>Option 2: export first (optional)</h2>
+  <p>Before you delete anything, go to <strong>More &gt; Export everything</strong>. You get your calendar (.ics) and your lists (.csv). Once your data is deleted, we cannot restore it.</p>
+
+  <h2>Option 3: ask us by email</h2>
+  <p>If you cannot reach the app, email <a href="mailto:developers.silicon@gmail.com?subject=Delete%20my%20Homebase%20data">developers.silicon@gmail.com</a> from the address linked to your account, with the subject "Delete my Homebase data". We may ask you to confirm your request before we act on it. Children's accounts are removed by a parent or guardian from the Family page, or by email from a parent or guardian.</p>
+
+  <h2>What is deleted, and when</h2>
+  <p><strong>Within 30 days</strong> of a deletion, we remove the data from our servers. This includes your sign-in, your family's events, chores, lists, recipes, records, notes and other content.</p>
+  <table>
+    <thead>
+      <tr><th>Where your data is</th><th>What happens</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Our servers (Supabase, US region)</td>
+        <td>Removed within 30 days of deletion.</td>
+      </tr>
+      <tr>
+        <td>Each family member's phone</td>
+        <td>Homebase keeps an offline copy. Other phones in a deleted family sign out at their next check, and their local copy is cleared then. You can also remove the app to delete its copy at once.</td>
+      </tr>
+      <tr>
+        <td>Subscription and billing records</td>
+        <td>Kept only as long as tax and accounting law requires. Apple and Google hold your payment records under their own policies.</td>
+      </tr>
+      <tr>
+        <td>Forwarded messages</td>
+        <td>Kept only until a family phone collects them.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Before you delete</h2>
+  <ul>
+    <li>Deleting a family removes it for everyone in it. This cannot be undone.</li>
+    <li>If you have a paid plan, cancel it in the App Store or Google Play. Deleting Homebase does not cancel the subscription.</li>
+    <li>Deleting your account does not delete other people's accounts.</li>
+  </ul>
+
+  <h2>Your other choices</h2>
+  <p>You can stop analytics at any time in <strong>Family settings &gt; Help improve Homebase</strong>. Full details are in our Privacy Policy.</p>
+
+  <footer>
+    Silicon, Chennai 600119, India. Privacy questions: <a href="mailto:developers.silicon@gmail.com">developers.silicon@gmail.com</a>.
+  </footer>
+</main>
+</body>
+</html>
